@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="intech.juced.intechtest.fragments.SongsTableFragment">
+
+    <intech.juced.intechtest.views.AutofitRecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:columnWidth="150dp"
+        android:clipToPadding="false">
+    </intech.juced.intechtest.views.AutofitRecyclerView>
+
+    <intech.juced.intechtest.views.player_controls.PlayerControlsView
+        android:layout_gravity="bottom"
+        android:id="@+id/playerControlsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
+
+
